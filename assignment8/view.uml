@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.view</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">tradestock.view.IView</node>
+    <node x="0.0" y="233.0">tradestock.view.CommandView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.view.CommandView" target="tradestock.view.IView">
+      <point x="0.0" y="-136.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="69.5" y="195.0" />
+  <SelectedNodes>
+    <node>tradestock.view.CommandView</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

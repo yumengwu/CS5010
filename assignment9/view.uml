@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.view</OriginalElement>
+  <nodes>
+    <node x="329.0" y="2244.0">tradestock.view.ButtonOnlyView.CheckCost</node>
+    <node x="2303.0" y="2244.0">tradestock.view.ButtonOnlyView.ChooseAWayToBuyStock</node>
+    <node x="0.0" y="0.0">tradestock.view.IView</node>
+    <node x="1974.0" y="2244.0">tradestock.view.ButtonOnlyView.SetAPI</node>
+    <node x="0.0" y="1618.0">tradestock.view.TextFieldView.CheckValueByDateView</node>
+    <node x="2632.0" y="2244.0">tradestock.view.ButtonOnlyView.CheckValue</node>
+    <node x="2961.0" y="1640.0">tradestock.view.TextFieldView.SetCommissionFee</node>
+    <node x="658.0" y="1640.0">tradestock.view.TextFieldView.CreatePortfolio</node>
+    <node x="1316.0" y="1640.0">tradestock.view.TextFieldView.CheckValueView</node>
+    <node x="1974.0" y="1640.0">tradestock.view.TextFieldView.CheckCostView</node>
+    <node x="2303.0" y="1618.0">tradestock.view.TextFieldView.CheckCostByDateView</node>
+    <node x="1809.5" y="1344.0">tradestock.view.TextFieldView.WithTextField</node>
+    <node x="0.0" y="2244.0">tradestock.view.ButtonOnlyView.ShowGetPortfolioDetailByDate</node>
+    <node x="2632.0" y="1574.0">tradestock.view.TextFieldView.BuyStockMoney</node>
+    <node x="987.0" y="1640.0">tradestock.view.TextFieldView.ReadPortfolio</node>
+    <node x="1316.0" y="2145.0">tradestock.view.ButtonOnlyView.MainView</node>
+    <node x="987.0" y="2244.0">tradestock.view.ButtonOnlyView.ShowGetPortfolioDetail</node>
+    <node x="329.0" y="1618.0">tradestock.view.TextFieldView.GetPortfolioDetailByDateView</node>
+    <node x="0.0" y="630.0">tradestock.view.CommandView</node>
+    <node x="3290.0" y="1618.0">tradestock.view.TextFieldView.SavePortfolio</node>
+    <node x="1316.0" y="2002.0">tradestock.view.ButtonOnlyView.ButtonOnly</node>
+    <node x="658.0" y="2244.0">tradestock.view.ButtonOnlyView.GetPortfolio</node>
+    <node x="1645.0" y="2233.0">tradestock.view.ButtonOnlyView.ShowAllPortfolios</node>
+    <node x="1645.0" y="1640.0">tradestock.view.TextFieldView.GetPortfolioDetailView</node>
+    <node x="3619.0" y="1574.0">tradestock.view.TextFieldView.BuyStockView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.view.ButtonOnlyView.ChooseAWayToBuyStock" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="2457.5" y="2105.0" />
+      <point x="1573.5" y="2105.0" />
+      <point x="103.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.SavePortfolio" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-147.5" />
+      <point x="3444.5" y="1514.0" />
+      <point x="2079.875" y="1514.0" />
+      <point x="115.875" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.CheckValueByDateView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-147.5" />
+      <point x="154.5" y="1504.0" />
+      <point x="1822.375" y="1504.0" />
+      <point x="-141.625" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.ReadPortfolio" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="1141.5" y="1534.0" />
+      <point x="1899.625" y="1534.0" />
+      <point x="-64.375" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.CommandView" target="tradestock.view.IView">
+      <point x="0.0" y="-334.5" />
+      <point x="0.0" y="290.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.SetCommissionFee" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="3115.5" y="1524.0" />
+      <point x="2054.125" y="1524.0" />
+      <point x="90.125" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.CreatePortfolio" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="812.5" y="1524.0" />
+      <point x="1873.875" y="1524.0" />
+      <point x="-90.125" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.MainView" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-158.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.ShowGetPortfolioDetail" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="1141.5" y="2125.0" />
+      <point x="1436.1666666666667" y="2125.0" />
+      <point x="-34.33333333333326" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.CheckValueView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="1470.5" y="1544.0" />
+      <point x="1925.375" y="1544.0" />
+      <point x="-38.625" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.CheckCost" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="483.5" y="2105.0" />
+      <point x="1367.5" y="2105.0" />
+      <point x="-103.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.SetAPI" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="2128.5" y="2115.0" />
+      <point x="1539.1666666666667" y="2115.0" />
+      <point x="68.66666666666674" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.GetPortfolioDetailByDateView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-147.5" />
+      <point x="483.5" y="1514.0" />
+      <point x="1848.125" y="1514.0" />
+      <point x="-115.875" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.ShowAllPortfolios" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-70.0" />
+      <point x="1799.5" y="2125.0" />
+      <point x="1504.8333333333335" y="2125.0" />
+      <point x="34.333333333333485" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.CheckCostByDateView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-147.5" />
+      <point x="2457.5" y="1544.0" />
+      <point x="2002.625" y="1544.0" />
+      <point x="38.625" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.ShowGetPortfolioDetailByDate" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="154.5" y="2095.0" />
+      <point x="1333.1666666666667" y="2095.0" />
+      <point x="-137.33333333333326" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.BuyStockMoney" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-191.5" />
+      <point x="2786.5" y="1534.0" />
+      <point x="2028.375" y="1534.0" />
+      <point x="64.375" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.GetPortfolioDetailView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="1799.5" y="1554.0" />
+      <point x="1951.125" y="1554.0" />
+      <point x="-12.875" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.CheckValue" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="2786.5" y="2095.0" />
+      <point x="1607.8333333333335" y="2095.0" />
+      <point x="137.33333333333348" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.ButtonOnlyView.GetPortfolio" target="tradestock.view.ButtonOnlyView.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="812.5" y="2115.0" />
+      <point x="1401.8333333333333" y="2115.0" />
+      <point x="-68.66666666666674" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.CheckCostView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-125.5" />
+      <point x="2128.5" y="1554.0" />
+      <point x="1976.875" y="1554.0" />
+      <point x="12.875" y="70.0" />
+    </edge>
+    <edge source="tradestock.view.TextFieldView.BuyStockView" target="tradestock.view.TextFieldView.WithTextField">
+      <point x="0.0" y="-191.5" />
+      <point x="3773.5" y="1504.0" />
+      <point x="2105.625" y="1504.0" />
+      <point x="141.625" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0841999193873437" x="793.23762965166" y="1802.7544890144616" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

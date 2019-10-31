@@ -1,0 +1,18 @@
+<portfolio>
+	<portfolio-name>first</portfolio-name>
+	<stock>
+		<stock-symbol>GOOG</stock-symbol>
+		<transaction-history>
+			<date>2019-02-14</date>
+			<sell>false</sell>
+			<volume>10.0</volume>
+			<cost>1118.05</cost>
+		</transaction-history>
+		<transaction-history>
+			<date>2019-03-01</date>
+			<sell>false</sell>
+			<volume>1.3334518623877676</volume>
+			<cost>1124.9</cost>
+		</transaction-history>
+	</stock>
+</portfolio>

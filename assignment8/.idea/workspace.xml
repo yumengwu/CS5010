@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fd2b3cf-3e36-4331-bf06-2ad2a0798d25" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/model/stock/IStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/IPortfolioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/TradeRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperationBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/model/transactionhistory/ITransactionHistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/controller/TradeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/BuyStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="89" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="89" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tradestock/view/CommandView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2312">
+              <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>go</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/AlphaVantageDemo.java" />
+        <option value="$PROJECT_DIR$/test/tradestock/model/stock/IStockTest.java" />
+        <option value="$PROJECT_DIR$/test/IGetPriceTest.java" />
+        <option value="$PROJECT_DIR$/test/IStockTest.java" />
+        <option value="$PROJECT_DIR$/test/ITransactionHistoryTest.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/getprice/IGetPrice.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/transactionhistory/ITransactionHistory.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/transactionhistory/TransactionHistory.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/stock/IStock.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/stock/Stock.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/portfolio/IPortfolio.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperation.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperationBuilder.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeModel.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/portfolio/Portfolio.java" />
+        <option value="$PROJECT_DIR$/res/DESIGN-README.txt" />
+        <option value="$PROJECT_DIR$/res/SETUP-README.txt" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/IController.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/BuyStock.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/TradeCommand.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/CheckCostBasis.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/CheckCostBasisByDate.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/CheckValue.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/CheckValueByDate.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/CreatePortfolio.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/GetPortfolioDetail.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/GetPortfolioDetailByDate.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/command/ShowAllPortfolios.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/model/getprice/GetPrice.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/view/CommandView.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/view/IView.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/controller/TradeController.java" />
+        <option value="$PROJECT_DIR$/test/MockModel.java" />
+        <option value="$PROJECT_DIR$/src/tradestock/TradeRunner.java" />
+        <option value="$PROJECT_DIR$/test/IPortfolioTest.java" />
+        <option value="$PROJECT_DIR$/test/ControllerViewMockModelTest.java" />
+        <option value="$PROJECT_DIR$/test/TradeControllerCommandViewTest.java" />
+        <option value="$PROJECT_DIR$/test/TradeOperationTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="813" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tradestock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tradestock" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554343364983" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="tradestock.model.stock" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TradeRunner">
+    <configuration name="TradeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tradestock.TradeRunner" />
+      <module name="assignment8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tradestock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IPortfolioTest.testOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IPortfolioTest" />
+      <option name="METHOD_NAME" value="testOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeControllerCommandViewTest.testTotalValueByDateInvalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TradeControllerCommandViewTest" />
+      <option name="METHOD_NAME" value="testTotalValueByDateInvalidDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeOperationTest.buy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TradeOperationTest" />
+      <option name="METHOD_NAME" value="buy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TradeOperationTest.testPublicMethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TradeOperationTest" />
+      <option name="METHOD_NAME" value="testPublicMethods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TradeRunner" />
+        <item itemvalue="JUnit.IPortfolioTest.testOutput" />
+        <item itemvalue="JUnit.TradeControllerCommandViewTest.testTotalValueByDateInvalidDate" />
+        <item itemvalue="JUnit.TradeOperationTest.buy" />
+        <item itemvalue="JUnit.TradeOperationTest.testPublicMethods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd2b3cf-3e36-4331-bf06-2ad2a0798d25" name="Default Changelist" comment="" />
+      <created>1552749388547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552749388547</updated>
+      <workItem from="1552749389814" duration="1233000" />
+      <workItem from="1552788282695" duration="4011000" />
+      <workItem from="1552792334834" duration="3618000" />
+      <workItem from="1552856476738" duration="3412000" />
+      <workItem from="1552859929181" duration="4246000" />
+      <workItem from="1552870452386" duration="1431000" />
+      <workItem from="1552878872240" duration="2115000" />
+      <workItem from="1552883768019" duration="764000" />
+      <workItem from="1552921643086" duration="923000" />
+      <workItem from="1552955233333" duration="11770000" />
+      <workItem from="1553015799775" duration="3608000" />
+      <workItem from="1553030657788" duration="192000" />
+      <workItem from="1553036142741" duration="119000" />
+      <workItem from="1553039057238" duration="91000" />
+      <workItem from="1553052646226" duration="455000" />
+      <workItem from="1553053169713" duration="13000" />
+      <workItem from="1553053341803" duration="149000" />
+      <workItem from="1553053518798" duration="474000" />
+      <workItem from="1553090182959" duration="4739000" />
+      <workItem from="1553095535296" duration="414000" />
+      <workItem from="1553103409388" duration="3569000" />
+      <workItem from="1553109517488" duration="2374000" />
+      <workItem from="1553112464662" duration="561000" />
+      <workItem from="1553524493127" duration="2646000" />
+      <workItem from="1553531046685" duration="150000" />
+      <workItem from="1554006091378" duration="52000" />
+      <workItem from="1554343361518" duration="85000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TradeControllerCommandViewTest_testInvalidConstructor - 2019.03.20 at 15h 44m 44s.xml">
+      <configuration name="TradeControllerCommandViewTest.testInvalidConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeControllerCommandViewTest_testCreateMultiplePortfoliosThenShow - 2019.03.20 at 15h 44m 48s.xml">
+      <configuration name="TradeControllerCommandViewTest.testCreateMultiplePortfoliosThenShow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeControllerCommandViewTest_testBuyStockInvalidDate - 2019.03.20 at 15h 44m 56s.xml">
+      <configuration name="TradeControllerCommandViewTest.testBuyStockInvalidDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ControllerViewMockModelTest_testShowPortfolioDetailByDateInvalidDate - 2019.03.20 at 15h 53m 43s.xml">
+      <configuration name="ControllerViewMockModelTest.testShowPortfolioDetailByDateInvalidDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeControllerCommandViewTest_testTotalValueByDateDifferentDateSameProfile - 2019.03.20 at 15h 54m 46s.xml">
+      <configuration name="TradeControllerCommandViewTest.testTotalValueByDateDifferentDateSameProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeOperationTest_testShowDetailOfPortfolio - 2019.03.20 at 15h 57m 43s.xml">
+      <configuration name="TradeOperationTest.testShowDetailOfPortfolio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeOperationTest_testPublicMethods - 2019.03.20 at 16h 10m 42s.xml">
+      <configuration name="TradeOperationTest.testPublicMethods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeOperationTest_buy - 2019.03.20 at 16h 11m 03s.xml">
+      <configuration name="TradeOperationTest.buy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TradeControllerCommandViewTest_testTotalValueByDateInvalidDate - 2019.03.20 at 16h 11m 21s.xml">
+      <configuration name="TradeControllerCommandViewTest.testTotalValueByDateInvalidDate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IPortfolioTest_testOutput - 2019.03.31 at 00h 22m 20s.xml">
+      <configuration name="IPortfolioTest.testOutput" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23495702" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871014" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="PlantUML" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/tradestock/model/stock/IStockTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/AlphaVantageDemo.java" />
+    <entry file="uml://JavaScript-modules-diagram//Users/yumengwu/Documents/Homework/CS5010/assignment8">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="548.0" y="335.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tradestock.model.transactionhistory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.model.transactionhistory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="167.0">tradestock.model.transactionhistory.TransactionHistory</node>
+            <node x="112.0" y="0.0">tradestock.model.transactionhistory.ITransactionHistory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="tradestock.model.transactionhistory.TransactionHistory" target="tradestock.model.transactionhistory.ITransactionHistory">
+              <point x="0.0" y="-114.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="85.0" y="81.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="259.3208311529743" y="190.0">tradestock.model.stock.IStock</node>
+            <node x="4134.177314088028" y="1038.0">tradestock.view.IView</node>
+            <node x="1872.0273140880277" y="446.0">tradestock.model.stock.Stock</node>
+            <node x="0.0" y="458.0">tradestock.model.portfolio.IPortfolio</node>
+            <node x="2569.5273140880277" y="1521.0">tradestock.controller.command.CheckValue</node>
+            <node x="2069.7773140880277" y="167.0">tradestock.model.transactionhistory.TransactionHistory</node>
+            <node x="1962.7773140880277" y="0.0">tradestock.model.transactionhistory.ITransactionHistory</node>
+            <node x="2682.8773140880276" y="1104.0">tradestock.controller.command.TradeCommand</node>
+            <node x="3136.1773140880277" y="1510.0">tradestock.controller.command.CheckValueByDate</node>
+            <node x="1665.5273140880277" y="1510.0">tradestock.controller.command.CheckCostBasisByDate</node>
+            <node x="2834.1773140880277" y="1521.0">tradestock.controller.command.GetPortfolioDetail</node>
+            <node x="805.166666666667" y="546.0">tradestock.model.getprice.IGetPrice</node>
+            <node x="2318.5273140880277" y="1521.0">tradestock.controller.command.CheckCostBasis</node>
+            <node x="2747.0273140880277" y="469.0">tradestock.model.tradeoperation.TradeOperation</node>
+            <node x="3820.1773140880277" y="1532.5">tradestock.controller.command.ShowAllPortfolios</node>
+            <node x="4407.177314088028" y="1104.0">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+            <node x="226.66666666666697" y="949.0">tradestock.model.portfolio.Portfolio</node>
+            <node x="3459.1773140880277" y="1488.0">tradestock.controller.command.BuyStock</node>
+            <node x="2016.5273140880277" y="1521.0">tradestock.controller.command.CreatePortfolio</node>
+            <node x="4271.177314088028" y="1422.0">tradestock.view.CommandView</node>
+            <node x="752.666666666667" y="1026.0">tradestock.model.getprice.GetPrice</node>
+            <node x="2880.077004477005" y="1869.0">tradestock.controller.TradeController</node>
+            <node x="1305.5273140880279" y="1510.0">tradestock.controller.command.GetPortfolioDetailByDate</node>
+            <node x="4600.177314088028" y="1544.0">tradestock.controller.IController</node>
+            <node x="654.0187627187634" y="1400.0">tradestock.model.tradeoperation.TradeModel</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.stock.Stock">
+              <point x="210.83333333333326" y="-180.5" />
+              <point x="690.5000000000002" y="799.0" />
+              <point x="1889.9503910111048" y="799.0" />
+              <point x="-215.07692307692287" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValueByDate" target="tradestock.model.stock.Stock">
+              <point x="0.0" y="-59.5" />
+              <point x="3287.6773140880277" y="1380.0" />
+              <point x="3332.6773140880277" y="1380.0" />
+              <point x="3332.6773140880277" y="819.0" />
+              <point x="2248.411929472643" y="819.0" />
+              <point x="143.38461538461524" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="90.65000000000009" y="-81.5" />
+              <point x="3229.7270044770053" y="1789.0" />
+              <point x="4112.677314088028" y="1789.0" />
+              <point x="4112.677314088028" y="759.0" />
+              <point x="3064.098742659456" y="759.0" />
+              <point x="124.07142857142844" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckCostBasis">
+              <point x="-90.65000000000009" y="-81.5" />
+              <point x="3048.427004477005" y="1789.0" />
+              <point x="2434.0273140880277" y="1789.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.BuyStock">
+              <point x="38.84999999999991" y="-81.5" />
+              <point x="3177.927004477005" y="1769.0" />
+              <point x="3629.6773140880277" y="1769.0" />
+              <point x="0.0" y="81.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckCostBasisByDate">
+              <point x="-142.44999999999982" y="-81.5" />
+              <point x="2996.6270044770054" y="1809.0" />
+              <point x="1831.0273140880277" y="1809.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="tradestock.controller.command.BuyStock" target="tradestock.model.stock.Stock">
+              <point x="0.0" y="-81.5" />
+              <point x="3629.6773140880277" y="1380.0" />
+              <point x="3681.010647421361" y="1380.0" />
+              <point x="3681.010647421361" y="799.0" />
+              <point x="2284.258083318797" y="799.0" />
+              <point x="179.2307692307695" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckValueByDate">
+              <point x="12.949999999999818" y="-81.5" />
+              <point x="3152.027004477005" y="1759.0" />
+              <point x="3287.6773140880277" y="1759.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetail" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="94.0" y="-48.5" />
+              <point x="3069.1773140880277" y="1380.0" />
+              <point x="3058.5895313681026" y="1380.0" />
+              <point x="3058.5895313681026" y="829.0" />
+              <point x="2953.813028373742" y="829.0" />
+              <point x="13.78571428571422" y="113.5" />
+            </edge>
+            <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.stock.IStock">
+              <point x="-42.16666666666674" y="-180.5" />
+              <point x="437.50000000000045" y="421.0" />
+              <point x="492.3208311529743" y="421.0" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="165.42857142857156" y="-169.5" />
+              <point x="1012.4473341473349" y="1380.0" />
+              <point x="1259.4915998023134" y="1380.0" />
+              <point x="1259.4915998023134" y="869.0" />
+              <point x="2760.813028373742" y="869.0" />
+              <point x="-179.21428571428578" y="113.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.stock.Stock">
+              <point x="110.28571428571422" y="-169.5" />
+              <point x="957.3044770044776" y="1370.0" />
+              <point x="1116.166666666667" y="1370.0" />
+              <point x="1116.166666666667" y="809.0" />
+              <point x="1925.7965448572586" y="809.0" />
+              <point x="-179.23076923076906" y="136.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeOperationBuilder" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-25.5" />
+              <point x="4523.677314088028" y="739.0" />
+              <point x="3119.2415998023134" y="739.0" />
+              <point x="179.21428571428578" y="113.5" />
+            </edge>
+            <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.portfolio.IPortfolio">
+              <point x="-210.83333333333331" y="-180.5" />
+              <point x="268.8333333333335" y="929.0" />
+              <point x="346.6666666666665" y="929.0" />
+              <point x="138.66666666666663" y="124.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CreatePortfolio">
+              <point x="-116.54999999999973" y="-81.5" />
+              <point x="3022.5270044770054" y="1799.0" />
+              <point x="2157.5273140880277" y="1799.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasis" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-48.5" />
+              <point x="2434.0273140880277" y="1330.0" />
+              <point x="2401.0273140880277" y="1330.0" />
+              <point x="2401.0273140880277" y="909.0" />
+              <point x="2871.098742659456" y="909.0" />
+              <point x="-68.92857142857156" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValueByDate" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="101.0" y="-59.5" />
+              <point x="3388.6773140880277" y="1380.0" />
+              <point x="3385.8395313681026" y="1380.0" />
+              <point x="3385.8395313681026" y="809.0" />
+              <point x="2981.3844569451708" y="809.0" />
+              <point x="41.35714285714312" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.GetPortfolioDetailByDate">
+              <point x="-168.3499999999999" y="-81.5" />
+              <point x="2970.7270044770053" y="1819.0" />
+              <point x="1475.5273140880279" y="1819.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="tradestock.view.CommandView" target="tradestock.view.IView">
+              <point x="0.0" y="-147.5" />
+              <point x="4425.677314088028" y="1380.0" />
+              <point x="4345.010647421361" y="1380.0" />
+              <point x="84.33333333333326" y="91.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValue" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-48.5" />
+              <point x="2685.0273140880277" y="1330.0" />
+              <point x="2652.0273140880277" y="1330.0" />
+              <point x="2652.0273140880277" y="919.0" />
+              <point x="2898.670171230885" y="919.0" />
+              <point x="-41.35714285714266" y="113.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.getprice.IGetPrice">
+              <point x="55.14285714285711" y="-169.5" />
+              <point x="902.1616198616205" y="1360.0" />
+              <point x="1105.166666666667" y="1360.0" />
+              <point x="1105.166666666667" y="789.0" />
+              <point x="1049.291666666667" y="789.0" />
+              <point x="104.625" y="36.5" />
+            </edge>
+            <edge source="tradestock.model.stock.Stock" target="tradestock.model.transactionhistory.ITransactionHistory">
+              <point x="-58.25" y="-136.5" />
+              <point x="2046.7773140880277" y="421.0" />
+              <point x="2048.2773140880277" y="421.0" />
+              <point x="2048.2773140880277" y="142.0" />
+              <point x="1994.9439807546942" y="142.0" />
+              <point x="-64.33333333333348" y="58.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CreatePortfolio" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-48.5" />
+              <point x="2157.5273140880277" y="1330.0" />
+              <point x="2116.0273140880277" y="1330.0" />
+              <point x="2116.0273140880277" y="899.0" />
+              <point x="2843.5273140880277" y="899.0" />
+              <point x="-96.5" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetailByDate" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-59.5" />
+              <point x="1475.5273140880279" y="1380.0" />
+              <point x="1424.3606474213611" y="1380.0" />
+              <point x="1424.3606474213611" y="879.0" />
+              <point x="2788.3844569451703" y="879.0" />
+              <point x="-151.64285714285734" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.command.ShowAllPortfolios" target="tradestock.model.stock.Stock">
+              <point x="0.0" y="-37.0" />
+              <point x="3961.1773140880277" y="1380.0" />
+              <point x="4002.6773140880277" y="1380.0" />
+              <point x="4002.6773140880277" y="779.0" />
+              <point x="2320.104237164951" y="779.0" />
+              <point x="215.07692307692332" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValueByDate" target="tradestock.controller.command.TradeCommand">
+              <point x="-101.0" y="-59.5" />
+              <point x="3186.6773140880277" y="1370.0" />
+              <point x="2874.8773140880276" y="1370.0" />
+              <point x="64.0" y="25.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.portfolio.IPortfolio">
+              <point x="-165.42857142857156" y="-169.5" />
+              <point x="681.5901912901918" y="1380.0" />
+              <point x="197.0" y="1380.0" />
+              <point x="197.0" y="929.0" />
+              <point x="69.33333333333348" y="929.0" />
+              <point x="-138.66666666666652" y="124.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValue" target="tradestock.controller.command.TradeCommand">
+              <point x="77.0" y="-48.5" />
+              <point x="2762.0273140880277" y="1380.0" />
+              <point x="2798.0773140880274" y="1380.0" />
+              <point x="-12.800000000000182" y="25.5" />
+            </edge>
+            <edge source="tradestock.model.stock.Stock" target="tradestock.model.transactionhistory.TransactionHistory">
+              <point x="174.75" y="-136.5" />
+              <point x="2279.7773140880277" y="421.0" />
+              <point x="2278.2773140880277" y="421.0" />
+              <point x="0.0" y="114.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasisByDate" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-59.5" />
+              <point x="1831.0273140880277" y="1330.0" />
+              <point x="1781.3606474213611" y="1330.0" />
+              <point x="1781.3606474213611" y="889.0" />
+              <point x="2815.955885516599" y="889.0" />
+              <point x="-124.07142857142844" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.command.ShowAllPortfolios" target="tradestock.controller.command.TradeCommand">
+              <point x="-94.0" y="-37.0" />
+              <point x="3867.1773140880277" y="1350.0" />
+              <point x="2926.0773140880274" y="1350.0" />
+              <point x="115.19999999999982" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasis" target="tradestock.controller.command.TradeCommand">
+              <point x="77.0" y="-48.5" />
+              <point x="2511.0273140880277" y="1370.0" />
+              <point x="2772.4773140880275" y="1370.0" />
+              <point x="-38.40000000000009" y="25.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.getprice.GetPrice">
+              <point x="0.0" y="-169.5" />
+              <point x="847.0187627187634" y="1350.0" />
+              <point x="923.666666666667" y="1350.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ShowAllPortfolios">
+              <point x="64.75" y="-81.5" />
+              <point x="3203.827004477005" y="1779.0" />
+              <point x="3961.1773140880277" y="1779.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetail" target="tradestock.controller.command.TradeCommand">
+              <point x="-94.0" y="-48.5" />
+              <point x="2881.1773140880277" y="1380.0" />
+              <point x="2849.2773140880277" y="1380.0" />
+              <point x="38.40000000000009" y="25.5" />
+            </edge>
+            <edge source="tradestock.model.transactionhistory.TransactionHistory" target="tradestock.model.transactionhistory.ITransactionHistory">
+              <point x="0.0" y="-114.5" />
+              <point x="2278.2773140880277" y="142.0" />
+              <point x="2123.610647421361" y="142.0" />
+              <point x="64.33333333333348" y="58.5" />
+            </edge>
+            <edge source="tradestock.model.getprice.GetPrice" target="tradestock.model.getprice.IGetPrice">
+              <point x="0.0" y="-103.5" />
+              <point x="923.666666666667" y="789.0" />
+              <point x="979.541666666667" y="789.0" />
+              <point x="34.875" y="36.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.IController">
+              <point x="246.05000000000018" y="-81.5" />
+              <point x="3385.1270044770054" y="1849.0" />
+              <point x="4693.177314088028" y="1849.0" />
+              <point x="31.0" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.GetPortfolioDetail">
+              <point x="-12.949999999999818" y="-81.5" />
+              <point x="3126.1270044770054" y="1759.0" />
+              <point x="2975.1773140880277" y="1759.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.model.tradeoperation.TradeModel">
+              <point x="-246.04999999999973" y="-81.5" />
+              <point x="2893.0270044770054" y="1849.0" />
+              <point x="847.0187627187634" y="1849.0" />
+              <point x="0.0" y="169.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CreatePortfolio" target="tradestock.model.stock.Stock">
+              <point x="-94.0" y="-48.5" />
+              <point x="2063.5273140880277" y="1330.0" />
+              <point x="2062.11478719693" y="1330.0" />
+              <point x="2062.11478719693" y="859.0" />
+              <point x="2105.0273140880277" y="859.0" />
+              <point x="0.0" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CreatePortfolio" target="tradestock.controller.command.TradeCommand">
+              <point x="94.0" y="-48.5" />
+              <point x="2251.5273140880277" y="1360.0" />
+              <point x="2746.8773140880276" y="1360.0" />
+              <point x="-64.0" y="25.5" />
+            </edge>
+            <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.portfolio.Portfolio">
+              <point x="-55.14285714285711" y="-169.5" />
+              <point x="791.8759055759062" y="1360.0" />
+              <point x="479.66666666666697" y="1360.0" />
+              <point x="0.0" y="180.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckValue" target="tradestock.model.stock.Stock">
+              <point x="-77.0" y="-48.5" />
+              <point x="2608.0273140880277" y="1330.0" />
+              <point x="2627.36478719693" y="1330.0" />
+              <point x="2627.36478719693" y="849.0" />
+              <point x="2176.7196217803353" y="849.0" />
+              <point x="71.69230769230762" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasisByDate" target="tradestock.controller.command.TradeCommand">
+              <point x="110.33333333333348" y="-59.5" />
+              <point x="1941.3606474213611" y="1350.0" />
+              <point x="2721.2773140880277" y="1350.0" />
+              <point x="-89.59999999999991" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetailByDate" target="tradestock.controller.command.TradeCommand">
+              <point x="113.33333333333348" y="-59.5" />
+              <point x="1588.8606474213614" y="1340.0" />
+              <point x="2695.6773140880277" y="1340.0" />
+              <point x="-115.19999999999982" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.TradeCommand">
+              <point x="-38.84999999999991" y="-81.5" />
+              <point x="3100.2270044770053" y="1769.0" />
+              <point x="2823.6773140880277" y="1769.0" />
+              <point x="12.800000000000182" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckValue">
+              <point x="-64.75" y="-81.5" />
+              <point x="3074.327004477005" y="1779.0" />
+              <point x="2685.0273140880277" y="1779.0" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasis" target="tradestock.model.stock.Stock">
+              <point x="-77.0" y="-48.5" />
+              <point x="2357.0273140880277" y="1330.0" />
+              <point x="2363.61478719693" y="1330.0" />
+              <point x="2363.61478719693" y="859.0" />
+              <point x="2140.8734679341815" y="859.0" />
+              <point x="35.84615384615381" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.TradeCommand" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="0.0" y="-25.5" />
+              <point x="2810.8773140880276" y="929.0" />
+              <point x="2926.2415998023134" y="929.0" />
+              <point x="-13.78571428571422" y="113.5" />
+            </edge>
+            <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.getprice.IGetPrice">
+              <point x="42.16666666666663" y="-180.5" />
+              <point x="521.8333333333335" y="779.0" />
+              <point x="840.041666666667" y="779.0" />
+              <point x="-104.625" y="36.5" />
+            </edge>
+            <edge source="tradestock.model.stock.Stock" target="tradestock.model.stock.IStock">
+              <point x="-174.75" y="-136.5" />
+              <point x="1930.2773140880277" y="421.0" />
+              <point x="647.6541644863078" y="421.0" />
+              <point x="155.33333333333337" y="91.5" />
+            </edge>
+            <edge source="tradestock.controller.command.BuyStock" target="tradestock.controller.command.TradeCommand">
+              <point x="-113.66666666666652" y="-81.5" />
+              <point x="3516.010647421361" y="1360.0" />
+              <point x="2900.4773140880275" y="1360.0" />
+              <point x="89.59999999999991" y="25.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.model.stock.Stock">
+              <point x="-220.14999999999964" y="-81.5" />
+              <point x="2918.9270044770055" y="1839.0" />
+              <point x="1284.0273140880277" y="1839.0" />
+              <point x="1284.0273140880277" y="819.0" />
+              <point x="1961.6426987034124" y="819.0" />
+              <point x="-143.38461538461524" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.view.IView">
+              <point x="142.44999999999982" y="-81.5" />
+              <point x="3281.527004477005" y="1809.0" />
+              <point x="4192.177314088028" y="1809.0" />
+              <point x="4192.177314088028" y="1380.0" />
+              <point x="4176.343980754695" y="1380.0" />
+              <point x="-84.33333333333326" y="91.5" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetail" target="tradestock.model.stock.Stock">
+              <point x="0.0" y="-48.5" />
+              <point x="2975.1773140880277" y="1380.0" />
+              <point x="3016.6773140880277" y="1380.0" />
+              <point x="3016.6773140880277" y="839.0" />
+              <point x="2212.565775626489" y="839.0" />
+              <point x="107.53846153846143" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.BuyStock" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="113.66666666666652" y="-81.5" />
+              <point x="3743.3439807546943" y="1380.0" />
+              <point x="3727.085714285715" y="1380.0" />
+              <point x="3727.085714285715" y="789.0" />
+              <point x="3008.955885516599" y="789.0" />
+              <point x="68.92857142857156" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.TradeController" target="tradestock.view.CommandView">
+              <point x="194.25" y="-81.5" />
+              <point x="3333.327004477005" y="1829.0" />
+              <point x="4425.677314088028" y="1829.0" />
+              <point x="0.0" y="147.5" />
+            </edge>
+            <edge source="tradestock.controller.command.GetPortfolioDetailByDate" target="tradestock.model.stock.Stock">
+              <point x="-113.33333333333348" y="-59.5" />
+              <point x="1362.1939807546944" y="1380.0" />
+              <point x="1413.3606474213611" y="1380.0" />
+              <point x="1413.3606474213611" y="839.0" />
+              <point x="2033.33500639572" y="839.0" />
+              <point x="-71.69230769230762" y="136.5" />
+            </edge>
+            <edge source="tradestock.controller.command.ShowAllPortfolios" target="tradestock.model.tradeoperation.TradeOperation">
+              <point x="94.0" y="-37.0" />
+              <point x="4055.1773140880277" y="1380.0" />
+              <point x="4013.6773140880277" y="1380.0" />
+              <point x="4013.6773140880277" y="769.0" />
+              <point x="3036.5273140880277" y="769.0" />
+              <point x="96.5" y="113.5" />
+            </edge>
+            <edge source="tradestock.controller.command.CheckCostBasisByDate" target="tradestock.model.stock.Stock">
+              <point x="-110.33333333333348" y="-59.5" />
+              <point x="1721.1147871969301" y="849.0" />
+              <point x="2069.181160241874" y="849.0" />
+              <point x="-35.84615384615381" y="136.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1261608623548922" x="1523.0" y="431.0" />
+          <SelectedNodes>
+            <node>tradestock.model.transactionhistory.ITransactionHistory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagram.uml" />
+    <entry file="uml://JAVA/tradestock.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.model</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperation</node>
+            <node x="" y="">tradestock.model.stock.IStock</node>
+            <node x="" y="">tradestock.model.getprice.GetPrice</node>
+            <node x="" y="">tradestock.model.stock.Stock</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+            <node x="" y="">tradestock.model.portfolio.Portfolio</node>
+            <node x="" y="">tradestock.model.portfolio.IPortfolio</node>
+            <node x="" y="">tradestock.model.transactionhistory.ITransactionHistory</node>
+            <node x="" y="">tradestock.model.transactionhistory.TransactionHistory</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel</node>
+            <node x="" y="">tradestock.model.getprice.IGetPrice</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9431708991077555" x="920.0" y="802.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tradestock.view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.view</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.view.IView</node>
+            <node x="" y="">tradestock.view.CommandView</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="275.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tradestock.controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.controller.command.CheckCostBasis</node>
+            <node x="" y="">tradestock.controller.command.TradeCommand</node>
+            <node x="" y="">tradestock.controller.command.ShowAllPortfolios</node>
+            <node x="" y="">tradestock.controller.TradeController</node>
+            <node x="" y="">tradestock.controller.command.BuyStock</node>
+            <node x="" y="">tradestock.controller.command.CheckValue</node>
+            <node x="" y="">tradestock.controller.command.CheckValueByDate</node>
+            <node x="" y="">tradestock.controller.command.CreatePortfolio</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetailByDate</node>
+            <node x="" y="">tradestock.controller.command.CheckCostBasisByDate</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetail</node>
+            <node x="" y="">tradestock.controller.IController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1448.0" y="106.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/tradestock">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.model.stock.IStock</node>
+            <node x="" y="">tradestock.view.IView</node>
+            <node x="" y="">tradestock.model.stock.Stock</node>
+            <node x="" y="">tradestock.model.portfolio.IPortfolio</node>
+            <node x="" y="">tradestock.controller.command.CheckValue</node>
+            <node x="" y="">tradestock.model.transactionhistory.TransactionHistory</node>
+            <node x="" y="">tradestock.model.transactionhistory.ITransactionHistory</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel.TradeBuilder</node>
+            <node x="" y="">tradestock.controller.command.TradeCommand</node>
+            <node x="" y="">tradestock.controller.command.CheckValueByDate</node>
+            <node x="" y="">tradestock.controller.command.CheckCostBasisByDate</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetail</node>
+            <node x="" y="">tradestock.model.getprice.IGetPrice</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperation</node>
+            <node x="" y="">tradestock.controller.command.CheckCostBasis</node>
+            <node x="" y="">tradestock.controller.command.ShowAllPortfolios</node>
+            <node x="" y="">tradestock.model.portfolio.Portfolio</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+            <node x="" y="">tradestock.controller.command.BuyStock</node>
+            <node x="" y="">tradestock.controller.command.CreatePortfolio</node>
+            <node x="" y="">tradestock.view.CommandView</node>
+            <node x="" y="">tradestock.model.getprice.GetPrice</node>
+            <node x="" y="">tradestock.controller.TradeController</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetailByDate</node>
+            <node x="" y="">tradestock.controller.IController</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.325879917184265" x="2405.0" y="991.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperation</node>
+            <node x="" y="">tradestock.view.IView</node>
+            <node x="" y="">tradestock.controller.TradeController</node>
+            <node x="" y="">tradestock.view.CommandView</node>
+            <node x="" y="">tradestock.controller.IController</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6150061500615006" x="485.0" y="407.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/stock/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="147" column="24" selection-start-line="146" selection-start-column="6" selection-end-line="147" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/transactionhistory/TransactionHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/SETUP-README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/portfolio/Portfolio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="124" column="17" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3575#3576#0" expanded="true" />
+            <element signature="e#3623#3624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/CheckCostBasis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/CheckCostBasisByDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/CheckValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/CheckValueByDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/CreatePortfolio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/GetPortfolioDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/GetPortfolioDetailByDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/ShowAllPortfolios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/getprice/GetPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/IGetPriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/IStockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ITransactionHistoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/DESIGN-README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MockModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.controller.command.CheckCostBasis</node>
+            <node x="" y="">tradestock.controller.command.TradeCommand</node>
+            <node x="" y="">tradestock.controller.command.ShowAllPortfolios</node>
+            <node x="" y="">tradestock.controller.TradeController</node>
+            <node x="" y="">tradestock.controller.command.BuyStock</node>
+            <node x="" y="">tradestock.controller.command.CheckValue</node>
+            <node x="" y="">tradestock.controller.command.CheckValueByDate</node>
+            <node x="" y="">tradestock.controller.command.CreatePortfolio</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetailByDate</node>
+            <node x="" y="">tradestock.controller.command.CheckCostBasisByDate</node>
+            <node x="" y="">tradestock.controller.IController</node>
+            <node x="" y="">tradestock.controller.command.GetPortfolioDetail</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="520.0" y="230.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.model</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperation</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel.TradeBuilder</node>
+            <node x="" y="">tradestock.model.stock.IStock</node>
+            <node x="" y="">tradestock.model.getprice.GetPrice</node>
+            <node x="" y="">tradestock.model.stock.Stock</node>
+            <node x="" y="">tradestock.model.portfolio.Portfolio</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+            <node x="" y="">tradestock.model.portfolio.IPortfolio</node>
+            <node x="" y="">tradestock.model.transactionhistory.TransactionHistory</node>
+            <node x="" y="">tradestock.model.transactionhistory.ITransactionHistory</node>
+            <node x="" y="">tradestock.model.tradeoperation.TradeModel</node>
+            <node x="" y="">tradestock.model.getprice.IGetPrice</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9431708991077555" x="552.0" y="245.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>tradestock.view</OriginalElement>
+          <nodes>
+            <node x="" y="">tradestock.view.IView</node>
+            <node x="" y="">tradestock.view.CommandView</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="253.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TradeOperationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5348">
+          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buy#0;class#TradeOperationTest#0" />
+            <element signature="method#getCostBasisByDateTest#0;class#TradeOperationTest#0" />
+            <element signature="method#testCostBasisBeforeBuyDate#0;class#TradeOperationTest#0" />
+            <element signature="method#testCostBasisDifferentDays#0;class#TradeOperationTest#0" />
+            <element signature="method#getCostBasisTest#0;class#TradeOperationTest#0" />
+            <element signature="method#getTotalValueByDate#0;class#TradeOperationTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TradeControllerCommandViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3436">
+          <caret line="2247" column="31" selection-start-line="2247" selection-start-column="31" selection-end-line="2247" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testInvalidConstructor#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCreateMultiplePortfoliosThenShow#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCreateExistPortfolio#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testShowAllPortfolioBeforeCreateAny#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testShowAnExistPortfolioDetail#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testShowAnNotExistPortfolioDetail#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#complicateTest#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testBuyStocksInDifferentDateThenShowPortfolioDetail#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testBuyStocksToANotExistPortfolio#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testBuyStockInvalidStockSymbol#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testBuyStockInvalidVolume#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateInDifferentDate#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateInvalidPortfolioName#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateNotExistPortfolio#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateInvalidDate#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateEmptyPortfolio#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasis#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisByDateDifferentDateSameProfile#0;class#TradeControllerCommandViewTest#0" />
+            <element signature="method#testCostBasisNotExistPortfolio#0;class#TradeControllerCommandViewTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ControllerViewMockModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="945" column="14" selection-start-line="945" selection-start-column="14" selection-end-line="945" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/TradeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/IController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/getprice/IGetPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/portfolio/IPortfolio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/view/IView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/stock/IStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeOperationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/transactionhistory/ITransactionHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/model/tradeoperation/TradeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/TradeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/controller/command/BuyStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="89" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/view/CommandView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="142" column="5" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/IPortfolioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tradestock/TradeRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>assignment8:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

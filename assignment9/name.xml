@@ -1,0 +1,21 @@
+<portfolio>
+	<portfolio-name>name</portfolio-name>
+	<stock>
+		<stock-symbol>MSFT</stock-symbol>
+		<transaction-history>
+			<date>2019-03-11</date>
+			<sell>false</sell>
+			<volume>200.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+	</stock>
+	<stock>
+		<stock-symbol>GOOG</stock-symbol>
+		<transaction-history>
+			<date>2019-03-11</date>
+			<sell>false</sell>
+			<volume>100.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+	</stock>
+</portfolio>

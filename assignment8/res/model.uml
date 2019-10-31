@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.model</OriginalElement>
+  <nodes>
+    <node x="151.75" y="643.0">tradestock.model.tradeoperation.TradeModel.TradeBuilder</node>
+    <node x="253.0" y="0.0">tradestock.model.tradeoperation.TradeOperation</node>
+    <node x="0.0" y="739.0">tradestock.model.stock.IStock</node>
+    <node x="749.0" y="862.0">tradestock.model.getprice.GetPrice</node>
+    <node x="0.0" y="972.0">tradestock.model.stock.Stock</node>
+    <node x="684.0" y="299.0">tradestock.model.portfolio.Portfolio</node>
+    <node x="0.0" y="409.5">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+    <node x="729.0" y="0.0">tradestock.model.portfolio.IPortfolio</node>
+    <node x="511.0" y="739.0">tradestock.model.transactionhistory.ITransactionHistory</node>
+    <node x="511.0" y="906.0">tradestock.model.transactionhistory.TransactionHistory</node>
+    <node x="253.0" y="277.0">tradestock.model.tradeoperation.TradeModel</node>
+    <node x="780.5" y="739.0">tradestock.model.getprice.IGetPrice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.model.stock.Stock" target="tradestock.model.stock.IStock">
+      <point x="0.0" y="-125.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.tradeoperation.TradeOperationBuilder">
+      <point x="-64.75" y="-25.5" />
+      <point x="216.5" y="618.0" />
+      <point x="116.5" y="618.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.model.transactionhistory.TransactionHistory" target="tradestock.model.transactionhistory.ITransactionHistory">
+      <point x="0.0" y="-103.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.getprice.GetPrice" target="tradestock.model.getprice.IGetPrice">
+      <point x="0.0" y="-92.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="0.0" y="-158.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.portfolio.IPortfolio">
+      <point x="0.0" y="-169.0" />
+      <point x="0.0" y="124.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.tradeoperation.TradeModel">
+      <point x="64.75" y="-25.5" />
+      <point x="346.0" y="618.0" />
+      <point x="446.0" y="618.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9431708991077555" x="942.0" y="719.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

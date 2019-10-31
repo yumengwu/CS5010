@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.view</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">tradestock.view.IView</node>
+    <node x="4608.1375" y="2950.0">tradestock.view.textfieldview.CheckCostByDateView</node>
+    <node x="6286.836782036046" y="2500.5">tradestock.view.advancedview.ReadStrategy</node>
+    <node x="3886.4375" y="2023.0">tradestock.view.buttononlyview.SetAPI</node>
+    <node x="1570.25" y="1990.0">tradestock.view.buttononlyview.ChooseStrategyWithEndDateOrNot</node>
+    <node x="745.75" y="2500.5">tradestock.view.textfieldview.GetPortfolioDetailView</node>
+    <node x="6888.801480491187" y="2023.0">tradestock.view.buttononlyview.ChooseAWayToBuyStock</node>
+    <node x="3870.3875" y="2884.0">tradestock.view.textfieldview.CreateStrategyInputStrategyBasic</node>
+    <node x="3886.4375" y="1716.0">tradestock.view.buttononlyview.ButtonOnly</node>
+    <node x="5628.836782036046" y="2511.5">tradestock.view.comboboxview.SavePortfolioChoosePortfolio</node>
+    <node x="4882.727869380076" y="2023.0">tradestock.view.buttononlyview.GetPortfolio</node>
+    <node x="2886.25" y="2023.0">tradestock.view.buttononlyview.CheckCost</node>
+    <node x="3122.3875" y="2917.0">tradestock.view.textfieldview.DiffPercentageNoEndBasic</node>
+    <node x="87.75" y="2478.5">tradestock.view.textfieldview.UseEqualPercentageEnd</node>
+    <node x="1075.75" y="2478.5">tradestock.view.textfieldview.UseEqualsPercentage</node>
+    <node x="1976.0" y="2950.0">tradestock.view.textfieldview.CheckValueByDateView</node>
+    <node x="988.0" y="2928.0">tradestock.view.textfieldview.BuyStockMoney</node>
+    <node x="3210.1375" y="2500.5">tradestock.view.textfieldview.SetCommissionFee</node>
+    <node x="1899.25" y="2034.0">tradestock.view.buttononlyview.ShowGetPortfolioDetail</node>
+    <node x="6219.213980491188" y="2034.0">tradestock.view.buttononlyview.ShowAllPortfolios</node>
+    <node x="4937.1375" y="2950.0">tradestock.view.textfieldview.GetPortfolioDetailByDateView</node>
+    <node x="6944.836782036046" y="2500.5">tradestock.view.advancedview.SaveStrategy</node>
+    <node x="2063.75" y="2500.5">tradestock.view.textfieldview.CheckValueView</node>
+    <node x="5299.836782036046" y="2500.5">tradestock.view.comboboxview.ApplyStrategyToPortfolio</node>
+    <node x="6559.801480491187" y="2012.5">tradestock.view.advancedview.IAdvancedView</node>
+    <node x="2557.25" y="2034.0">tradestock.view.buttononlyview.ShowGetPortfolioDetailByDate</node>
+    <node x="3710.1375" y="2435.0">tradestock.view.helperclass.HelperClass</node>
+    <node x="1733.75" y="2478.5">tradestock.view.textfieldview.AddStock</node>
+    <node x="5890.213980491188" y="2023.0">tradestock.view.buttononlyview.CheckValue</node>
+    <node x="0.0" y="827.0">tradestock.view.CommandView</node>
+    <node x="1404.75" y="2500.5">tradestock.view.textfieldview.CheckCostView</node>
+    <node x="2392.75" y="2467.5">tradestock.view.textfieldview.UseDiffPercentageNoEnd</node>
+    <node x="2228.25" y="2012.5">tradestock.view.textfieldview.WithTextField</node>
+    <node x="4279.1375" y="2917.0">tradestock.view.textfieldview.EqualPercentageNoEndBasic</node>
+    <node x="5541.901480491188" y="2023.5">tradestock.view.comboboxview.ComboBoxView</node>
+    <node x="3541.3875" y="2884.0">tradestock.view.textfieldview.DiffPercentageEndBasic</node>
+    <node x="3557.4375" y="1869.0">tradestock.view.buttononlyview.MainView</node>
+    <node x="416.75" y="2500.5">tradestock.view.textfieldview.CreatePortfolio</node>
+    <node x="0.0" y="2928.0">tradestock.view.textfieldview.BuyStockView</node>
+    <node x="2880.1375" y="2467.5">tradestock.view.textfieldview.UseDiffPercentageEnd</node>
+    <node x="6615.836782036046" y="2500.5">tradestock.view.advancedview.SavePortfolio</node>
+    <node x="7273.836782036046" y="2500.5">tradestock.view.advancedview.ReadPortfolio</node>
+    <node x="5957.836782036046" y="2511.5">tradestock.view.comboboxview.SaveStrategyChooseStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.view.textfieldview.CheckValueView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-114.0" />
+      <point x="2218.25" y="2415.0" />
+      <point x="2375.0249999999996" y="2415.0" />
+      <point x="-7.725000000000364" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CheckValueByDateView" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-147.0" />
+      <point x="2207.75" y="2844.0" />
+      <point x="3882.9152777777776" y="2844.0" />
+      <point x="-138.22222222222217" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.DiffPercentageNoEndBasic" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-180.0" />
+      <point x="3199.6375" y="2395.0" />
+      <point x="2421.375" y="2395.0" />
+      <point x="38.625" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.SetAPI" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.advancedview.SavePortfolio" target="tradestock.view.advancedview.IAdvancedView">
+      <point x="0.0" y="-114.0" />
+      <point x="6770.336782036046" y="2415.0" />
+      <point x="6714.301480491187" y="2415.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.advancedview.ReadPortfolio" target="tradestock.view.advancedview.IAdvancedView">
+      <point x="0.0" y="-114.0" />
+      <point x="7428.336782036046" y="2405.0" />
+      <point x="6837.901480491188" y="2405.0" />
+      <point x="123.60000000000002" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.comboboxview.ApplyStrategyToPortfolio" target="tradestock.view.comboboxview.ComboBoxView">
+      <point x="0.0" y="-114.0" />
+      <point x="5454.336782036046" y="2395.0" />
+      <point x="5657.776480491188" y="2395.0" />
+      <point x="-38.625" y="58.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.AddStock" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-136.0" />
+      <point x="1888.25" y="2395.0" />
+      <point x="2344.125" y="2395.0" />
+      <point x="-38.625" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.UseDiffPercentageNoEnd" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-147.0" />
+      <point x="2547.25" y="2415.0" />
+      <point x="2390.4750000000004" y="2415.0" />
+      <point x="7.725000000000364" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.ChooseAWayToBuyStock" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="7043.301480491187" y="1809.0" />
+      <point x="4181.392045454545" y="1809.0" />
+      <point x="140.4545454545455" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CreateStrategyInputStrategyBasic" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-213.0" />
+      <point x="4102.1375" y="2864.0" />
+      <point x="4090.2486111111107" y="2864.0" />
+      <point x="69.11111111111086" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.helperclass.HelperClass" target="tradestock.view.comboboxview.ComboBoxView">
+      <point x="124.40000000000009" y="-179.5" />
+      <point x="4145.5375" y="2385.0" />
+      <point x="5580.526480491188" y="2385.0" />
+      <point x="-115.875" y="58.5" />
+    </edge>
+    <edge source="tradestock.view.advancedview.SaveStrategy" target="tradestock.view.advancedview.IAdvancedView">
+      <point x="0.0" y="-114.0" />
+      <point x="7099.336782036046" y="2415.0" />
+      <point x="6776.101480491188" y="2415.0" />
+      <point x="61.80000000000007" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.BuyStockView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-169.0" />
+      <point x="77.25" y="2325.0" />
+      <point x="2235.9750000000004" y="2325.0" />
+      <point x="-146.77499999999964" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.ShowAllPortfolios" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-48.0" />
+      <point x="6373.713980491188" y="1819.0" />
+      <point x="4153.301136363636" y="1819.0" />
+      <point x="112.36363636363649" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.BuyStockMoney" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-169.0" />
+      <point x="1065.25" y="2365.0" />
+      <point x="2297.7749999999996" y="2365.0" />
+      <point x="-84.97500000000036" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.BuyStockMoney" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-169.0" />
+      <point x="1219.75" y="2834.0" />
+      <point x="3813.8041666666663" y="2834.0" />
+      <point x="-207.33333333333348" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.CommandView" target="tradestock.view.IView">
+      <point x="0.0" y="-422.0" />
+      <point x="0.0" y="388.5" />
+    </edge>
+    <edge source="tradestock.view.comboboxview.SavePortfolioChoosePortfolio" target="tradestock.view.comboboxview.ComboBoxView">
+      <point x="0.0" y="-103.0" />
+      <point x="5783.336782036046" y="2395.0" />
+      <point x="5735.026480491188" y="2395.0" />
+      <point x="38.625" y="58.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.DiffPercentageNoEndBasic" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-180.0" />
+      <point x="3354.1375" y="2854.0" />
+      <point x="3952.0263888888885" y="2854.0" />
+      <point x="-69.11111111111131" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CheckValueByDateView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-147.0" />
+      <point x="2053.25" y="2405.0" />
+      <point x="2359.575" y="2405.0" />
+      <point x="-23.175000000000182" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.CheckCost" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="3040.75" y="1839.0" />
+      <point x="3984.755681818182" y="1839.0" />
+      <point x="-56.18181818181802" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.UseEqualsPercentage" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-136.0" />
+      <point x="1230.25" y="2375.0" />
+      <point x="2313.2250000000004" y="2375.0" />
+      <point x="-69.52499999999964" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.SetCommissionFee" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-114.0" />
+      <point x="3364.6375" y="2385.0" />
+      <point x="2436.825" y="2385.0" />
+      <point x="54.07499999999982" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.CheckValue" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="6044.713980491188" y="1829.0" />
+      <point x="4125.210227272727" y="1829.0" />
+      <point x="84.27272727272748" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.UseEqualPercentageEnd" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-136.0" />
+      <point x="242.25" y="2335.0" />
+      <point x="2251.425" y="2335.0" />
+      <point x="-131.32499999999982" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.comboboxview.SaveStrategyChooseStrategy" target="tradestock.view.comboboxview.ComboBoxView">
+      <point x="0.0" y="-103.0" />
+      <point x="6112.336782036046" y="2395.0" />
+      <point x="5812.276480491188" y="2395.0" />
+      <point x="115.875" y="58.5" />
+    </edge>
+    <edge source="tradestock.view.helperclass.HelperClass" target="tradestock.view.advancedview.IAdvancedView">
+      <point x="248.80000000000018" y="-179.5" />
+      <point x="4269.9375" y="2405.0" />
+      <point x="6590.701480491188" y="2405.0" />
+      <point x="-123.60000000000002" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CheckCostByDateView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="77.25" y="-147.0" />
+      <point x="4839.8875" y="2325.0" />
+      <point x="2514.075" y="2325.0" />
+      <point x="131.32499999999982" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.ShowGetPortfolioDetail" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-48.0" />
+      <point x="2053.75" y="1819.0" />
+      <point x="3928.573863636363" y="1819.0" />
+      <point x="-112.36363636363649" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CheckCostByDateView" target="tradestock.view.helperclass.HelperClass">
+      <point x="-77.25" y="-147.0" />
+      <point x="4685.3875" y="2854.0" />
+      <point x="4228.470833333333" y="2854.0" />
+      <point x="207.33333333333348" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.helperclass.HelperClass" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-179.5" />
+      <point x="4021.1375" y="2375.0" />
+      <point x="4521.202134085959" y="2375.0" />
+      <point x="4521.202134085959" y="1849.0" />
+      <point x="4069.028409090909" y="1849.0" />
+      <point x="28.09090909090901" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.DiffPercentageEndBasic" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-213.0" />
+      <point x="3773.1375" y="2864.0" />
+      <point x="4021.1375" y="2864.0" />
+      <point x="0.0" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.ShowGetPortfolioDetailByDate" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-48.0" />
+      <point x="2711.75" y="1829.0" />
+      <point x="3956.664772727272" y="1829.0" />
+      <point x="-84.27272727272748" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.GetPortfolioDetailView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-114.0" />
+      <point x="900.25" y="2355.0" />
+      <point x="2282.325" y="2355.0" />
+      <point x="-100.42500000000018" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.BuyStockView" target="tradestock.view.helperclass.HelperClass">
+      <point x="77.25" y="-169.0" />
+      <point x="231.75" y="2824.0" />
+      <point x="3744.6930555555555" y="2824.0" />
+      <point x="-276.44444444444434" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.helperclass.HelperClass" target="tradestock.view.buttononlyview.MainView">
+      <point x="-124.40000000000009" y="-179.5" />
+      <point x="3896.7374999999997" y="2345.0" />
+      <point x="3711.9375" y="2345.0" />
+      <point x="0.0" y="213.0" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.DiffPercentageEndBasic" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-213.0" />
+      <point x="3618.6375" y="2814.0" />
+      <point x="3529.6375" y="2814.0" />
+      <point x="3529.6375" y="2375.0" />
+      <point x="2452.2749999999996" y="2375.0" />
+      <point x="69.52499999999964" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.GetPortfolio" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-59.0" />
+      <point x="5037.227869380076" y="1839.0" />
+      <point x="4097.119318181818" y="1839.0" />
+      <point x="56.18181818181802" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CreateStrategyInputStrategyBasic" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-77.25" y="-213.0" />
+      <point x="3947.6375" y="2814.0" />
+      <point x="3699.6375" y="2814.0" />
+      <point x="3699.6375" y="2365.0" />
+      <point x="2467.7249999999995" y="2365.0" />
+      <point x="84.97499999999945" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.UseDiffPercentageEnd" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-147.0" />
+      <point x="3034.6375" y="2405.0" />
+      <point x="2405.925" y="2405.0" />
+      <point x="23.175000000000182" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CheckCostView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-114.0" />
+      <point x="1559.25" y="2385.0" />
+      <point x="2328.675" y="2385.0" />
+      <point x="-54.07499999999982" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.helperclass.HelperClass" target="tradestock.view.textfieldview.WithTextField">
+      <point x="-248.79999999999973" y="-179.5" />
+      <point x="3772.3375" y="2355.0" />
+      <point x="2483.175" y="2355.0" />
+      <point x="100.42500000000018" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.EqualPercentageNoEndBasic" target="tradestock.view.textfieldview.WithTextField">
+      <point x="77.25" y="-180.0" />
+      <point x="4510.8875" y="2335.0" />
+      <point x="2498.625" y="2335.0" />
+      <point x="115.875" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.advancedview.ReadStrategy" target="tradestock.view.advancedview.IAdvancedView">
+      <point x="0.0" y="-114.0" />
+      <point x="6441.336782036046" y="2415.0" />
+      <point x="6652.501480491188" y="2415.0" />
+      <point x="-61.799999999999955" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.EqualPercentageNoEndBasic" target="tradestock.view.helperclass.HelperClass">
+      <point x="-77.25" y="-180.0" />
+      <point x="4356.3875" y="2864.0" />
+      <point x="4159.3597222222215" y="2864.0" />
+      <point x="138.22222222222217" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.GetPortfolioDetailByDateView" target="tradestock.view.helperclass.HelperClass">
+      <point x="-77.25" y="-147.0" />
+      <point x="5014.3875" y="2844.0" />
+      <point x="4297.581944444444" y="2844.0" />
+      <point x="276.44444444444434" y="179.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.MainView" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-213.0" />
+      <point x="3711.9375" y="1849.0" />
+      <point x="4012.846590909091" y="1849.0" />
+      <point x="-28.09090909090901" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.GetPortfolioDetailByDateView" target="tradestock.view.textfieldview.WithTextField">
+      <point x="77.25" y="-147.0" />
+      <point x="5168.8875" y="2315.0" />
+      <point x="2529.5249999999996" y="2315.0" />
+      <point x="146.77499999999964" y="69.5" />
+    </edge>
+    <edge source="tradestock.view.buttononlyview.ChooseStrategyWithEndDateOrNot" target="tradestock.view.buttononlyview.ButtonOnly">
+      <point x="0.0" y="-92.0" />
+      <point x="1724.75" y="1809.0" />
+      <point x="3900.482954545454" y="1809.0" />
+      <point x="-140.4545454545455" y="36.5" />
+    </edge>
+    <edge source="tradestock.view.textfieldview.CreatePortfolio" target="tradestock.view.textfieldview.WithTextField">
+      <point x="0.0" y="-114.0" />
+      <point x="571.25" y="2345.0" />
+      <point x="2266.875" y="2345.0" />
+      <point x="-115.875" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="2133.0" y="2677.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

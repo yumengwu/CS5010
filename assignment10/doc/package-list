@@ -1,0 +1,17 @@
+
+tradestock
+tradestock.controller
+tradestock.controller.command
+tradestock.model.getprice
+tradestock.model.portfolio
+tradestock.model.stock
+tradestock.model.strategy
+tradestock.model.tradeoperation
+tradestock.model.transactionhistory
+tradestock.model.xmlparser
+tradestock.view
+tradestock.view.advancedview
+tradestock.view.buttononlyview
+tradestock.view.comboboxview
+tradestock.view.helperclass
+tradestock.view.textfieldview

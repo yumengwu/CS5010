@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.controller</OriginalElement>
+  <nodes>
+    <node x="6246.0" y="247.0">tradestock.controller.command.CheckCostBasis</node>
+    <node x="1038.0" y="258.5">tradestock.controller.command.ShowAllPortfolios</node>
+    <node x="2445.0" y="247.0">tradestock.controller.command.ReadPortfolioFromFile</node>
+    <node x="3489.0" y="214.0">tradestock.controller.command.BuyStock</node>
+    <node x="4476.0" y="247.0">tradestock.controller.command.CheckValue</node>
+    <node x="5883.0" y="247.0">tradestock.controller.command.ReadStrategy</node>
+    <node x="1404.0" y="247.0">tradestock.controller.command.CreatePortfolio</node>
+    <node x="3852.0" y="236.0">tradestock.controller.command.AddStockToPortfolio</node>
+    <node x="5517.0" y="236.0">tradestock.controller.command.SavePortfolioToFile</node>
+    <node x="6538.632291666667" y="517.0">tradestock.controller.GUIController</node>
+    <node x="2079.0" y="214.0">tradestock.controller.command.ByStockGivenMoney</node>
+    <node x="5154.0" y="236.0">tradestock.controller.command.ApplyStrategyToPortfolio</node>
+    <node x="3334.496527777778" y="0.0">tradestock.controller.command.TradeCommand</node>
+    <node x="312.0" y="181.0">tradestock.controller.command.CreateStrategy</node>
+    <node x="3401.5" y="946.0">tradestock.controller.TradeController</node>
+    <node x="2811.0" y="247.0">tradestock.controller.command.SetCommissionFee</node>
+    <node x="0.0" y="236.0">tradestock.controller.command.SaveStrategy</node>
+    <node x="1766.9999999999998" y="236.0">tradestock.controller.command.CheckValueByDate</node>
+    <node x="4788.0" y="247.0">tradestock.controller.command.SetAPI</node>
+    <node x="3177.0" y="236.0">tradestock.controller.command.GetPortfolioDetailByDate</node>
+    <node x="4164.0" y="236.0">tradestock.controller.command.CheckCostBasisByDate</node>
+    <node x="675.0" y="247.0">tradestock.controller.command.GetPortfolioDetail</node>
+    <node x="6618.632291666667" y="258.5">tradestock.controller.IController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.controller.command.ShowAllPortfolios" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-25.5" />
+      <point x="1211.0" y="101.0" />
+      <point x="3389.9715277777777" y="101.0" />
+      <point x="-103.02500000000009" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.SetAPI">
+      <point x="98.66666666666652" y="-59.0" />
+      <point x="3759.166666666666" y="437.0" />
+      <point x="4961.0" y="437.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.CheckCostBasis" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="6392.0" y="81.0" />
+      <point x="3627.7215277777777" y="81.0" />
+      <point x="134.7249999999999" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckCostBasis">
+      <point x="197.33333333333348" y="-59.0" />
+      <point x="3857.833333333333" y="477.0" />
+      <point x="6392.0" y="477.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ShowAllPortfolios">
+      <point x="-172.66666666666697" y="-59.0" />
+      <point x="3487.833333333333" y="467.0" />
+      <point x="1211.0" y="467.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.BuyStock">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="tradestock.controller.command.GetPortfolioDetail" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="846.5" y="91.0" />
+      <point x="3374.121527777778" y="91.0" />
+      <point x="-118.875" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckCostBasisByDate">
+      <point x="49.333333333333485" y="-59.0" />
+      <point x="3709.833333333333" y="417.0" />
+      <point x="4310.0" y="417.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.command.ReadStrategy" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="6054.5" y="91.0" />
+      <point x="3611.871527777778" y="91.0" />
+      <point x="118.875" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckValueByDate">
+      <point x="-123.33333333333348" y="-59.0" />
+      <point x="3537.166666666666" y="447.0" />
+      <point x="1912.9999999999998" y="447.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.command.SaveStrategy" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="146.0" y="71.0" />
+      <point x="3342.421527777778" y="71.0" />
+      <point x="-150.57499999999982" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.command.SetCommissionFee" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="2984.0" y="151.0" />
+      <point x="3469.2215277777777" y="151.0" />
+      <point x="-23.77500000000009" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.IController">
+      <point x="246.66666666666652" y="-59.0" />
+      <point x="3907.166666666666" y="497.0" />
+      <point x="6657.632291666667" y="497.0" />
+      <point x="-39.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.GetPortfolioDetail">
+      <point x="-197.33333333333348" y="-59.0" />
+      <point x="3463.166666666666" y="477.0" />
+      <point x="846.5" y="477.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.CreatePortfolio" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="1575.5" y="111.0" />
+      <point x="3405.8215277777776" y="111.0" />
+      <point x="-87.17500000000018" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ApplyStrategyToPortfolio">
+      <point x="123.33333333333348" y="-59.0" />
+      <point x="3783.833333333333" y="447.0" />
+      <point x="5325.5" y="447.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.command.ByStockGivenMoney" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-70.0" />
+      <point x="2252.0" y="131.0" />
+      <point x="3437.521527777778" y="131.0" />
+      <point x="-55.47499999999991" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.command.CheckCostBasisByDate" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="4310.0" y="141.0" />
+      <point x="3532.621527777778" y="141.0" />
+      <point x="39.625" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CreatePortfolio">
+      <point x="-148.0" y="-59.0" />
+      <point x="3512.5" y="457.0" />
+      <point x="1575.5" y="457.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.GetPortfolioDetailByDate" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="3323.0" y="161.0" />
+      <point x="3485.0715277777776" y="161.0" />
+      <point x="-7.925000000000182" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.command.AddStockToPortfolio" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="3998.0" y="151.0" />
+      <point x="3516.771527777778" y="151.0" />
+      <point x="23.77500000000009" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.TradeCommand">
+      <point x="222.0" y="-59.0" />
+      <point x="3882.5" y="487.0" />
+      <point x="6548.5" y="487.0" />
+      <point x="6548.5" y="71.0" />
+      <point x="3643.5715277777776" y="71.0" />
+      <point x="150.57499999999982" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CheckValue">
+      <point x="74.0" y="-59.0" />
+      <point x="3734.5" y="427.0" />
+      <point x="4622.0" y="427.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.GUIController" target="tradestock.controller.IController">
+      <point x="0.0" y="-488.0" />
+      <point x="39.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ByStockGivenMoney">
+      <point x="-98.66666666666652" y="-59.0" />
+      <point x="3561.833333333333" y="437.0" />
+      <point x="2252.0" y="437.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="tradestock.controller.command.ApplyStrategyToPortfolio" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="5325.5" y="111.0" />
+      <point x="3580.171527777778" y="111.0" />
+      <point x="87.17500000000018" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.GetPortfolioDetailByDate">
+      <point x="-24.666666666666515" y="-59.0" />
+      <point x="3635.833333333333" y="407.0" />
+      <point x="3323.0" y="407.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.SavePortfolioToFile">
+      <point x="148.0" y="-59.0" />
+      <point x="3808.5" y="457.0" />
+      <point x="5690.0" y="457.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.command.BuyStock" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-70.0" />
+      <point x="3660.5" y="161.0" />
+      <point x="3500.921527777778" y="161.0" />
+      <point x="7.925000000000182" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ReadPortfolioFromFile">
+      <point x="-74.0" y="-59.0" />
+      <point x="3586.5" y="427.0" />
+      <point x="2618.0" y="427.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.ReadPortfolioFromFile" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="2618.0" y="141.0" />
+      <point x="3453.371527777778" y="141.0" />
+      <point x="-39.625" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.CreateStrategy">
+      <point x="-222.0" y="-59.0" />
+      <point x="3438.5" y="487.0" />
+      <point x="483.5" y="487.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="tradestock.controller.command.CreateStrategy" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-103.0" />
+      <point x="483.5" y="81.0" />
+      <point x="3358.271527777778" y="81.0" />
+      <point x="-134.7249999999999" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.SaveStrategy">
+      <point x="-246.66666666666697" y="-59.0" />
+      <point x="3413.833333333333" y="497.0" />
+      <point x="146.0" y="497.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.command.CheckValueByDate" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="1912.9999999999998" y="121.0" />
+      <point x="3421.671527777778" y="121.0" />
+      <point x="-71.32499999999982" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.command.SavePortfolioToFile" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-48.0" />
+      <point x="5690.0" y="101.0" />
+      <point x="3596.021527777778" y="101.0" />
+      <point x="103.02500000000009" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.SetCommissionFee">
+      <point x="-49.333333333333485" y="-59.0" />
+      <point x="3611.166666666666" y="417.0" />
+      <point x="2984.0" y="417.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.CheckValue" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="4622.0" y="131.0" />
+      <point x="3548.4715277777777" y="131.0" />
+      <point x="55.47499999999991" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.AddStockToPortfolio">
+      <point x="24.666666666666515" y="-59.0" />
+      <point x="3685.166666666666" y="407.0" />
+      <point x="3998.0" y="407.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.command.ReadStrategy">
+      <point x="172.66666666666652" y="-59.0" />
+      <point x="3833.166666666666" y="467.0" />
+      <point x="6054.5" y="467.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="tradestock.controller.command.SetAPI" target="tradestock.controller.command.TradeCommand">
+      <point x="0.0" y="-37.0" />
+      <point x="4961.0" y="121.0" />
+      <point x="3564.3215277777776" y="121.0" />
+      <point x="71.32499999999982" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8973021796837733" x="3432.4555907197064" y="320.57553431334986" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

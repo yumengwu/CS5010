@@ -1,0 +1,33 @@
+<portfolio>
+	<portfolio-name>p2</portfolio-name>
+	<stock>
+		<stock-symbol>GOOG</stock-symbol>
+		<transaction-history>
+			<date>2019-03-11</date>
+			<sell>false</sell>
+			<volume>123.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+		<transaction-history>
+			<date>2019-03-12</date>
+			<sell>false</sell>
+			<volume>321.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+	</stock>
+	<stock>
+		<stock-symbol>APPL</stock-symbol>
+		<transaction-history>
+			<date>2019-03-11</date>
+			<sell>false</sell>
+			<volume>64.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+		<transaction-history>
+			<date>2019-03-12</date>
+			<sell>false</sell>
+			<volume>89.0</volume>
+			<cost>100.0</cost>
+		</transaction-history>
+	</stock>
+</portfolio>

@@ -1,0 +1,33 @@
+<portfolio>
+	<portfolio-name>p1</portfolio-name>
+	<stock>
+		<stock-symbol>GOOG</stock-symbol>
+		<transaction-history>
+			<date>2018-12-24</date>
+			<sell>false</sell>
+			<volume>10.243592632808179</volume>
+			<cost>976.22</cost>
+		</transaction-history>
+		<transaction-history>
+			<date>2018-12-26</date>
+			<sell>false</sell>
+			<volume>9.620379812595</volume>
+			<cost>1039.46</cost>
+		</transaction-history>
+	</stock>
+	<stock>
+		<stock-symbol>AMZN</stock-symbol>
+		<transaction-history>
+			<date>2018-12-24</date>
+			<sell>false</sell>
+			<volume>7.4406976398107085</volume>
+			<cost>1343.96</cost>
+		</transaction-history>
+		<transaction-history>
+			<date>2018-12-26</date>
+			<sell>false</sell>
+			<volume>6.798558705554422</volume>
+			<cost>1470.9</cost>
+		</transaction-history>
+	</stock>
+</portfolio>

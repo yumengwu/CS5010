@@ -1,0 +1,10 @@
+
+tradestock
+tradestock.controller
+tradestock.controller.command
+tradestock.model.getprice
+tradestock.model.portfolio
+tradestock.model.stock
+tradestock.model.tradeoperation
+tradestock.model.transactionhistory
+tradestock.view

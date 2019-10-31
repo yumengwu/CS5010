@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock</OriginalElement>
+  <nodes>
+    <node x="582.2458333333333" y="0.0">tradestock.model.tradeoperation.TradeOperation</node>
+    <node x="97.82916666666665" y="22.0">tradestock.view.IView</node>
+    <node x="97.92500000000001" y="653.0">tradestock.controller.TradeController</node>
+    <node x="0.0" y="299.0">tradestock.view.CommandView</node>
+    <node x="285.0" y="409.5">tradestock.controller.IController</node>
+    <node x="429.0" y="277.0">tradestock.model.tradeoperation.TradeModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="-5.6843418860808015E-14" y="-158.0" />
+      <point x="622.0" y="252.0" />
+      <point x="646.5791666666667" y="252.0" />
+      <point x="-128.66666666666663" y="113.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.view.CommandView">
+      <point x="-226.625" y="-70.0" />
+      <point x="130.3" y="633.0" />
+      <point x="126.5" y="633.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="226.625" y="-70.0" />
+      <point x="583.55" y="633.0" />
+      <point x="836.5" y="633.0" />
+      <point x="836.5" y="252.0" />
+      <point x="903.9124999999999" y="252.0" />
+      <point x="128.66666666666663" y="113.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.view.IView">
+      <point x="-97.125" y="-70.0" />
+      <point x="259.8" y="633.0" />
+      <point x="274.5" y="633.0" />
+      <point x="274.5" y="252.0" />
+      <point x="308.6624999999999" y="252.0" />
+      <point x="84.33333333333326" y="91.5" />
+    </edge>
+    <edge source="tradestock.view.CommandView" target="tradestock.view.IView">
+      <point x="0.0" y="-136.0" />
+      <point x="126.5" y="252.0" />
+      <point x="139.99583333333328" y="252.0" />
+      <point x="-84.33333333333337" y="91.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.controller.IController">
+      <point x="-32.375" y="-70.0" />
+      <point x="324.55" y="633.0" />
+      <point x="316.0" y="633.0" />
+      <point x="-31.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.controller.TradeController" target="tradestock.model.tradeoperation.TradeModel">
+      <point x="97.125" y="-70.0" />
+      <point x="454.05" y="613.0" />
+      <point x="622.0" y="613.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6150061500615006" x="484.5" y="396.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

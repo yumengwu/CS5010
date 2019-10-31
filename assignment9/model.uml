@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>tradestock.model</OriginalElement>
+  <nodes>
+    <node x="1200.6800034786647" y="968.0">tradestock.model.xmlparser.XMLParser.ProcessState</node>
+    <node x="1742.520106679036" y="461.0">tradestock.model.tradeoperation.TradeOperation</node>
+    <node x="586.2871463358076" y="187.0">tradestock.model.stock.IStock</node>
+    <node x="1389.6800034786647" y="1045.0">tradestock.model.xmlparser.IXMLParser</node>
+    <node x="10.5" y="515.5">tradestock.model.stock.Stock</node>
+    <node x="1100.840586348177" y="1362.0">tradestock.model.xmlparser.XMLParser</node>
+    <node x="254.0" y="879.0">tradestock.model.portfolio.Portfolio</node>
+    <node x="1990.270106679036" y="1022.5">tradestock.model.tradeoperation.TradeOperationBuilder</node>
+    <node x="868.6034400123694" y="472.0">tradestock.model.portfolio.IPortfolio</node>
+    <node x="233.53714633580785" y="0.0">tradestock.model.transactionhistory.ITransactionHistory</node>
+    <node x="218.75" y="220.5">tradestock.model.transactionhistory.TransactionHistory</node>
+    <node x="1925.6073979591843" y="1505.0">tradestock.model.tradeoperation.TradeModel.TradeBuilder</node>
+    <node x="2324.607397959184" y="978.5">tradestock.model.getprice.GetPrice</node>
+    <node x="1355.6034400123694" y="593.5">tradestock.model.getprice.MockGetPrice</node>
+    <node x="1997.0550034786647" y="242.5">tradestock.model.getprice.IGetPrice</node>
+    <node x="1662.8534400123694" y="1898.0">tradestock.model.tradeoperation.TradeModel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.transactionhistory.ITransactionHistory">
+      <point x="-216.8571428571429" y="-191.5" />
+      <point x="290.1428571428571" y="849.0" />
+      <point x="0.0" y="849.0" />
+      <point x="0.0" y="137.0" />
+      <point x="250.43714633580794" y="137.0" />
+      <point x="-67.59999999999991" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.stock.Stock">
+      <point x="-144.57142857142844" y="-191.5" />
+      <point x="362.42857142857156" y="859.0" />
+      <point x="398.8333333333335" y="859.0" />
+      <point x="155.33333333333348" y="114.5" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.xmlparser.IXMLParser">
+      <point x="122.57142857142867" y="-213.0" />
+      <point x="1366.4120149196058" y="1342.0" />
+      <point x="1432.6800034786647" y="1342.0" />
+      <point x="-43.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.getprice.GetPrice">
+      <point x="161.85714285714295" y="-246.5" />
+      <point x="2030.7105828695123" y="1868.0" />
+      <point x="2581.107397959184" y="1868.0" />
+      <point x="85.5" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.portfolio.IPortfolio" target="tradestock.model.stock.IStock">
+      <point x="-116.5" y="-158.0" />
+      <point x="985.1034400123694" y="391.0" />
+      <point x="952.4300034786647" y="391.0" />
+      <point x="133.1428571428571" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.tradeoperation.TradeOperationBuilder">
+      <point x="-54.0" y="-70.0" />
+      <point x="2060.6073979591843" y="1342.0" />
+      <point x="2048.520106679036" y="1342.0" />
+      <point x="-58.25" y="48.0" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.stock.IStock">
+      <point x="-81.71428571428578" y="-213.0" />
+      <point x="1162.1263006338913" y="1332.0" />
+      <point x="858.1034400123694" y="1332.0" />
+      <point x="858.1034400123694" y="391.0" />
+      <point x="885.8585749072361" y="391.0" />
+      <point x="66.57142857142844" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeOperation" target="tradestock.model.getprice.IGetPrice">
+      <point x="103.0" y="-169.0" />
+      <point x="2051.520106679036" y="441.0" />
+      <point x="2111.1913671150282" y="441.0" />
+      <point x="-25.363636363636374" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.transactionhistory.TransactionHistory" target="tradestock.model.transactionhistory.ITransactionHistory">
+      <point x="0.0" y="-58.5" />
+      <point x="301.75" y="167.0" />
+      <point x="351.83714633580803" y="167.0" />
+      <point x="33.80000000000018" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.getprice.GetPrice" target="tradestock.model.getprice.IGetPrice">
+      <point x="0.0" y="-92.0" />
+      <point x="2495.607397959184" y="401.0" />
+      <point x="2238.00954893321" y="401.0" />
+      <point x="101.4545454545455" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.xmlparser.XMLParser.ProcessState">
+      <point x="40.85714285714289" y="-213.0" />
+      <point x="1284.69772920532" y="1302.0" />
+      <point x="1242.9300034786647" y="1302.0" />
+      <point x="-42.25" y="102.5" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.getprice.MockGetPrice">
+      <point x="0.0" y="-213.0" />
+      <point x="1243.840586348177" y="1312.0" />
+      <point x="1190.1800034786647" y="1312.0" />
+      <point x="1190.1800034786647" y="859.0" />
+      <point x="1495.1034400123694" y="859.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.stock.IStock" target="tradestock.model.transactionhistory.ITransactionHistory">
+      <point x="0.0" y="-92.0" />
+      <point x="819.2871463358076" y="167.0" />
+      <point x="385.63714633580776" y="167.0" />
+      <point x="67.59999999999991" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.stock.IStock">
+      <point x="-72.28571428571422" y="-191.5" />
+      <point x="434.7142857142858" y="849.0" />
+      <point x="526.6428571428571" y="849.0" />
+      <point x="526.6428571428571" y="431.0" />
+      <point x="686.1442891929505" y="431.0" />
+      <point x="-133.1428571428571" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.tradeoperation.TradeModel.TradeBuilder">
+      <point x="44.14285714285711" y="-246.5" />
+      <point x="1912.9962971552266" y="1828.0" />
+      <point x="1988.6073979591843" y="1828.0" />
+      <point x="-126.0" y="70.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="14.71428571428578" y="-246.5" />
+      <point x="1883.5677257266552" y="1808.0" />
+      <point x="1841.92604553185" y="1808.0" />
+      <point x="1841.92604553185" y="859.0" />
+      <point x="1811.1867733457025" y="859.0" />
+      <point x="-137.33333333333337" y="169.0" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.portfolio.IPortfolio">
+      <point x="-40.85714285714289" y="-213.0" />
+      <point x="1202.9834434910342" y="1322.0" />
+      <point x="965.1334434910342" y="1322.0" />
+      <point x="965.1334434910342" y="839.0" />
+      <point x="1008.4034400123694" y="839.0" />
+      <point x="-93.20000000000005" y="158.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.xmlparser.XMLParser">
+      <point x="-103.0" y="-246.5" />
+      <point x="1765.8534400123694" y="1848.0" />
+      <point x="1243.840586348177" y="1848.0" />
+      <point x="0.0" y="213.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.stock.Stock">
+      <point x="-191.28571428571433" y="-246.5" />
+      <point x="1677.567725726655" y="1878.0" />
+      <point x="232.5" y="1878.0" />
+      <point x="232.5" y="859.0" />
+      <point x="88.16666666666652" y="859.0" />
+      <point x="-155.33333333333348" y="114.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeOperationBuilder" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="-58.25" y="-48.0" />
+      <point x="2048.520106679036" y="859.0" />
+      <point x="2085.8534400123694" y="859.0" />
+      <point x="137.33333333333337" y="169.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.portfolio.Portfolio">
+      <point x="-161.8571428571429" y="-246.5" />
+      <point x="1706.9962971552266" y="1868.0" />
+      <point x="380.4999999999998" y="1868.0" />
+      <point x="-126.5" y="191.5" />
+    </edge>
+    <edge source="tradestock.model.getprice.MockGetPrice" target="tradestock.model.getprice.IGetPrice">
+      <point x="0.0" y="-36.5" />
+      <point x="1495.1034400123694" y="431.0" />
+      <point x="2085.8277307513918" y="431.0" />
+      <point x="-50.72727272727275" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.portfolio.IPortfolio">
+      <point x="144.57142857142844" y="-191.5" />
+      <point x="651.5714285714284" y="839.0" />
+      <point x="915.2034400123695" y="839.0" />
+      <point x="-186.39999999999998" y="158.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeOperation" target="tradestock.model.stock.IStock">
+      <point x="-103.0" y="-169.0" />
+      <point x="1845.520106679036" y="391.0" />
+      <point x="1019.0014320500934" y="391.0" />
+      <point x="199.71428571428578" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.getprice.IGetPrice">
+      <point x="54.0" y="-70.0" />
+      <point x="2168.6073979591843" y="1322.0" />
+      <point x="2288.145106679036" y="1322.0" />
+      <point x="2288.145106679036" y="431.0" />
+      <point x="2161.918639842301" y="431.0" />
+      <point x="25.363636363636374" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.portfolio.Portfolio" target="tradestock.model.getprice.IGetPrice">
+      <point x="216.85714285714312" y="-191.5" />
+      <point x="723.8571428571431" y="849.0" />
+      <point x="1345.1034400123694" y="849.0" />
+      <point x="1345.1034400123694" y="421.0" />
+      <point x="2060.4640943877557" y="421.0" />
+      <point x="-76.09090909090912" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.stock.Stock" target="tradestock.model.stock.IStock">
+      <point x="174.75" y="-114.5" />
+      <point x="418.25" y="421.0" />
+      <point x="619.5728606215218" y="421.0" />
+      <point x="-199.71428571428578" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.portfolio.IPortfolio" target="tradestock.model.getprice.IGetPrice">
+      <point x="116.5" y="-158.0" />
+      <point x="1218.1034400123694" y="411.0" />
+      <point x="2035.1004580241192" y="411.0" />
+      <point x="-101.4545454545455" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.getprice.IGetPrice">
+      <point x="191.28571428571428" y="-246.5" />
+      <point x="2060.1391542980837" y="1878.0" />
+      <point x="2677.107397959184" y="1878.0" />
+      <point x="2677.107397959184" y="391.0" />
+      <point x="2263.3731852968467" y="391.0" />
+      <point x="126.81818181818187" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.stock.Stock" target="tradestock.model.transactionhistory.ITransactionHistory">
+      <point x="-174.75" y="-114.5" />
+      <point x="68.75" y="431.0" />
+      <point x="197.25" y="431.0" />
+      <point x="197.25" y="147.0" />
+      <point x="284.23714633580767" y="147.0" />
+      <point x="-33.80000000000018" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeOperationBuilder" target="tradestock.model.getprice.IGetPrice">
+      <point x="58.25" y="-48.0" />
+      <point x="2165.020106679036" y="441.0" />
+      <point x="2136.5550034786647" y="441.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.IXMLParser" target="tradestock.model.portfolio.IPortfolio">
+      <point x="0.0" y="-25.5" />
+      <point x="1475.6800034786647" y="839.0" />
+      <point x="1101.6034400123694" y="839.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.stock.IStock">
+      <point x="-132.42857142857144" y="-246.5" />
+      <point x="1736.424868583798" y="1858.0" />
+      <point x="794.3034400123694" y="1858.0" />
+      <point x="794.3034400123694" y="391.0" />
+      <point x="819.2871463358076" y="391.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.xmlparser.IXMLParser">
+      <point x="-73.57142857142856" y="-246.5" />
+      <point x="1795.2820114409408" y="1838.0" />
+      <point x="1518.6800034786647" y="1838.0" />
+      <point x="43.0" y="25.5" />
+    </edge>
+    <edge source="tradestock.model.xmlparser.XMLParser" target="tradestock.model.portfolio.Portfolio">
+      <point x="-122.57142857142867" y="-213.0" />
+      <point x="1121.2691577767484" y="1342.0" />
+      <point x="633.5" y="1342.0" />
+      <point x="126.5" y="191.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.tradeoperation.TradeOperation">
+      <point x="-108.0" y="-70.0" />
+      <point x="2006.6073979591843" y="1282.0" />
+      <point x="1885.3534400123694" y="1282.0" />
+      <point x="1885.3534400123694" y="859.0" />
+      <point x="1948.520106679036" y="859.0" />
+      <point x="0.0" y="169.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.stock.Stock">
+      <point x="-162.0" y="-70.0" />
+      <point x="1952.6073979591843" y="1292.0" />
+      <point x="243.5" y="1292.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.getprice.GetPrice">
+      <point x="162.0" y="-70.0" />
+      <point x="2276.6073979591843" y="1342.0" />
+      <point x="2410.107397959184" y="1342.0" />
+      <point x="-85.5" y="92.0" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel" target="tradestock.model.portfolio.IPortfolio">
+      <point x="-44.14285714285711" y="-246.5" />
+      <point x="1824.7105828695123" y="1828.0" />
+      <point x="1572.1800034786647" y="1828.0" />
+      <point x="1572.1800034786647" y="829.0" />
+      <point x="1194.8034400123693" y="829.0" />
+      <point x="93.19999999999982" y="158.0" />
+    </edge>
+    <edge source="tradestock.model.stock.Stock" target="tradestock.model.transactionhistory.TransactionHistory">
+      <point x="58.25" y="-114.5" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="tradestock.model.tradeoperation.TradeModel.TradeBuilder" target="tradestock.model.tradeoperation.TradeModel">
+      <point x="126.0" y="70.0" />
+      <point x="2240.6073979591843" y="1848.0" />
+      <point x="1971.8534400123694" y="1848.0" />
+      <point x="103.00000000000006" y="-246.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.98954790543343" x="878.4079973174618" y="220.91353005281252" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
